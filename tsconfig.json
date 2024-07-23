@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "esModuleInterop": false,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "noEmit": true,
+    "plugins": [
+      {
+        "name": "@styled/typescript-styled-plugin"
+      }
+    ],
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2018",
+    "useDefineForClassFields": true
+  },
+  "include": [
+    "src/**/*",
+    "stories/**/*",
+    "tests/**/*",
+    "cdk/**/*",
+    "cf/**/*",
+    ".storybook/**/*",
+    "vite.config.mts",
+    ".eslintrc.js",
+    "jest.config.js",
+    "prettier.config.js"
+  ]
+}
